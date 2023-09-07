@@ -1,0 +1,30 @@
+.imageBlock {
+    position: relative;
+}
+.imageBlock-image {
+    width: 100%;
+}
+
+#imageBlock-1 {
+    width: 100%;
+}
+
+.mark {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0.7;
+    border: none;
+}
+
+.mark--open {
+    padding: 11px 15px;
+    align-items: center;
+    border-radius: 15px;
+    width: auto;
+    opacity: 1;
+    z-index: 2;
+}
